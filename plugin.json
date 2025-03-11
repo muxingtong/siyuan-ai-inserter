@@ -1,0 +1,47 @@
+{
+  "name": "plugin-ai-inserter",
+  "author": "muxingtong",
+  "url": "https://github.com/siyuan-note/plugin-sample",
+  "version": "0.1.0",
+  "minAppVersion": "3.1.24",
+  "backends": [
+    "windows",
+    "linux",
+    "darwin",
+    "ios",
+    "android",
+    "harmony",
+    "docker"
+  ],
+  "frontends": [
+    "desktop",
+    "mobile",
+    "browser-desktop",
+    "browser-mobile",
+    "desktop-window"
+  ],
+  "displayName": {
+    "default": "plugin-ai-inserter",
+    "zh_CN": "测试插件"
+  },
+  "description": {
+    "default": "plugin-ai-inserter",
+    "zh_CN": "测试插件"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "funding": {
+    "openCollective": "",
+    "patreon": "",
+    "github": "",
+    "custom": [
+      "https://ld246.com/sponsor"
+    ]
+  },
+  "keywords": [
+    "sample",
+    "示例"
+  ]
+}
