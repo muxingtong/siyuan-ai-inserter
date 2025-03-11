@@ -219,7 +219,8 @@ export default class AIInserterPlugin extends Plugin {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": `Bearer ${this.apiKey}`
+                "Authorization": `Bearer ${this.apiKey}`,
+                'Accept': 'application/json'
             },
             body: JSON.stringify({
                 model: "deepseek-chat",
@@ -243,7 +244,7 @@ export default class AIInserterPlugin extends Plugin {
             } else if (error.message.includes("429")) {
                 showMessage("超出速率限制。请稍后再试。");
             } else {
-                showMessage("生成 AI 响应时发生错误。请重试。");
+                
             }
         } else {
             showMessage("发生未知错误。请重试。");
