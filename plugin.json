@@ -1,7 +1,7 @@
 {
   "name": "plugin-ai-inserter",
   "author": "muxingtong",
-  "url": "https://github.com/siyuan-note/plugin-sample",
+  "url": "https://github.com/muxingtong/siyuan-ai-inserter",
   "version": "0.1.0",
   "minAppVersion": "3.1.24",
   "backends": [
