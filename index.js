@@ -7272,7 +7272,8 @@ class AIInserterPlugin extends siyuan__WEBPACK_IMPORTED_MODULE_0__.Plugin {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": \`Bearer \${this.apiKey}\`
+          "Authorization": \`Bearer \${this.apiKey}\`,
+          "Accept": "application/json"
         },
         body: JSON.stringify({
           model: "deepseek-chat",
@@ -7294,7 +7295,7 @@ class AIInserterPlugin extends siyuan__WEBPACK_IMPORTED_MODULE_0__.Plugin {
       } else if (error.message.includes("429")) {
         (0,siyuan__WEBPACK_IMPORTED_MODULE_0__.showMessage)("\\u8D85\\u51FA\\u901F\\u7387\\u9650\\u5236\\u3002\\u8BF7\\u7A0D\\u540E\\u518D\\u8BD5\\u3002");
       } else {
-        (0,siyuan__WEBPACK_IMPORTED_MODULE_0__.showMessage)("\\u751F\\u6210 AI \\u54CD\\u5E94\\u65F6\\u53D1\\u751F\\u9519\\u8BEF\\u3002\\u8BF7\\u91CD\\u8BD5\\u3002");
+        (0,siyuan__WEBPACK_IMPORTED_MODULE_0__.showMessage)("\\u751F\\u6210AI\\u54CD\\u5E94\\u65F6\\u51FA\\u9519\\uFF0C\\u8BF7\\u7A0D\\u540E\\u91CD\\u8BD5");
       }
     } else {
       (0,siyuan__WEBPACK_IMPORTED_MODULE_0__.showMessage)("\\u53D1\\u751F\\u672A\\u77E5\\u9519\\u8BEF\\u3002\\u8BF7\\u91CD\\u8BD5\\u3002");
